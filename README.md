@@ -1,6 +1,6 @@
 # BAMBOO: A Comprehensive Benchmark for Evaluating Long Text Modeling Capacities
 
-This repository contains the evaluation code, prompt, and datasets for the paper [BAMBOO: A Comprehensive Benchmark for Evaluating Long Text Modeling Capacities](https://arxiv.org/abs/2309.13345).
+This repository contains the evaluation code, prompt, and datasets for the paper BAMBOO: A Comprehensive Benchmark for Evaluating Long Text Modeling Capacities.
 
 BAMBOO benchmark is  a comprehensive benchmark to analyze LLMs’ long text modeling. In BAMBOO benchmark, there are 10 datasets from 5 tasks, i.e., question answering, hallucination detection, langauge modeling, code completion, and text sorting. Our benchmark is constructed with the following principles:
 
@@ -60,15 +60,3 @@ Task should chosen from the list ``['meetingqa','paperqa','altqa','senhallu','ab
 
 This repository is released under the [MIT License](LICENSE).
 
-## Citation
-
-If you use this benchmark or code in your research, please consider citing the original paper:
-
-```
-@article{dong2023bamboo,
-  title={BAMBOO: A Comprehensive Benchmark for Evaluating Long Text Modeling Capacities of Large Language Models},
-  author={Dong, Zican and Tang, Tianyi and Li, Junyi and Zhao, Wayne Xin and Wen, Ji-Rong},
-  journal={arXiv preprint arXiv:2309.13345},
-  year={2023}
-}
-```
